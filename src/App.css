@@ -1,0 +1,128 @@
+*
+.App {
+  text-align: center;
+  text-align: left;
+  line-height: 2.32;
+  width: 40%;
+  font-size: 15px;
+  font-weight: 500;
+  margin:1.2rem;
+}
+.App button{
+  padding:6px 12px;
+  margin:5px 3px 0 3px;
+  font-size: 13px;
+  font-weight: bold;
+  background: #e4e7ed;
+  border: 1px solid transparent;
+  color: #333;
+  border-radius: 4px;
+}
+
+.App button:hover{
+  cursor: pointer;
+  background: #758191;
+  border: 1px solid transparent;
+  color: #fff;
+  box-shadow: 1px 2px 10px #aaaeb9;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* 스타일 넣기 */
+
+body, html {
+  font-family: "Noto Sans KR", 맑은고딕, "Malgun Gothic", Dotum, arial, AppleGothic, sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.03333em;
+  word-spacing: -0.075em;
+}
+
+element.style {
+}
+html[data-dark=true] body {
+    background-color: #1e1f21;
+    color: #d9d9d9;
+}
+body, button, input, select, table, textarea {
+    font-size: 12px;
+    line-height: 16px;
+    color: #202020;
+    font-family: -apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
+}
+
+body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, select, table, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+  list-style: none;
+}
+.input_search{
+  width: 240px;
+  height: 12px;
+  padding:8px;
+  margin:8px;
+}
+.input_search:hover{
+  border: 2px solid #1a73e8;
+  border-radius: 4px;
+}
+.input_search_but{
+  padding: 6px 12px;
+  margin: 5px 2px 0 0;
+  font-size: 13px;
+  font-weight: bold;
+  background: #1a73e8;
+  border: 1px solid transparent;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.input_search_but:hover{
+  opacity: 0.8;
+}
+.gas-station-list{
+  border: 1px solid #666;
+  text-decoration-line: none;
+}
+
+.gas-station-list tr, td{
+
+  text-decoration-line: none;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
